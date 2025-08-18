@@ -19,5 +19,12 @@ Kamis 14 Agustus 2025
   Jika suatu saat ingin kembali ke konfig sebelumnya, bisa masuk ke **Files** di Winbox dan klik **Upload** lalu cari dan pilih file backup ke router, kemudian klik **Restore**. Atau bisa juga langsung Drag&Dron file dari WInExplor ke Files WInbox.    
   ![restor](cari.PNG)  
 
+  Kriteria Backup Restore:  
+  1. Bisa dengan menu klik  
+  2. Membackup semua config  
+  3. Harus reboot kalo restore  
+  4. Tidak backup sebagian config  
+  5. Tidak bisa dibaca di text editor  
+
 # Kesimpulan
   Backup and Restore sangat disarankan untuk selalu dilakukan secara berkala untuk menghindari hal yang tidak diinginkan. Filenya ber ekstensi .backup dan sifatnya binary, yang artinya tidak bisa dibaca atau edit manual.  Disarankan untuk reouter yang sama atau dengan seri dan tipe yang identik.
